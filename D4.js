@@ -51,7 +51,14 @@ console.log(crazyDiff(10));
  ritornare la stringa originale senza alterarla.
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+const epify = str
+{
+    if (str.startsWith("EPICODE")) {
+        return str;
+    } else {
+        return "EPICODE " + str;
+    }
+};
 
 /* ESERCIZIO 6
  Scrivi una funzione di nome "check3and7" che accetta un numero positivo come parametro. La funzione deve controllare che il parametro sia un multiplo
